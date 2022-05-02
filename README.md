@@ -1,7 +1,7 @@
 # EnrollmentFileAssessment
 
 Sample utility for an assessment. It takes the a csv file as an input and splits records into their own csv files by company. 
-The records are sorted first by last name then by first name.
+The records are sorted first by last name then by first name. Duplicate records are ignored unless they have a higher version number.
 
 When utility runs enter the name of the csv file you are importing. The file must be in the utility's root directory.
 
